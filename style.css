@@ -4,20 +4,20 @@ body{
     height: 960px;
 }
 
-.header-flex{
+.hero-section{
     position: relative;
     width: 1440px;
     height: 960px;
-    background-image: url(assets/fon_1.svg);
+    background-image: url(assets/fon1.svg);
 }
-.imggg{
+.logo-container{
     display: flex;
     justify-content: left;
     border-left: 121px;
     width: 55px;
     padding-right: 146px;
 }
-.header-links{
+.nav-links{
     font-weight: bold;
     color: #FFFFFF;
     font-size: 12px;
@@ -26,11 +26,11 @@ body{
     max-width: 1130px;
     margin: 0 auto;
 }
-.header-left{
+.left-header-section{
     display: flex;
     align-items: center;
 }
-.ENG-in-header{
+.language-switcher{
     background: none;
     padding: 0;
     border: none;
@@ -42,7 +42,7 @@ body{
     justify-content: space-between;
     
 }
-.imog{
+.language-icon{
     max-width: 13px;
     max-height: 13px;
     padding-left: 6px;
@@ -51,7 +51,7 @@ body{
     border-width: 0.87px;
     padding-bottom: 0px;
 }
-.header-links a{
+.nav-links a{
     margin-right: 24px;
     font-size: 15px;
     color: #FFFFFF;
@@ -59,28 +59,28 @@ body{
     align-items: center;
     border-left:147px; 
 }
-.header-links{
+.nav-links{
     align-items: center;
     border-left:147px; 
 
 }
-.xbst{
+.nav-items{
     display: flex;
     padding-left: 0;
     gap: 20px;
     justify-content: space-between;
     padding-left: 24px;
 }
-.heads{
+.header-content{
     display: flex;
     padding: 44px;
 }
-.SURVIVE{
+.main-heading-container{
     width: fit-content;
     margin: 0 auto;
     padding-top: 211px;
 }
-.sur{
+.main-heading{
     padding-top: 49px;
     font-weight: bold;
     color: #FFFFFF;
@@ -93,11 +93,11 @@ body{
     height: 73px;
     padding-bottom: 30px;
 }
-.res{
+.price-container{
     display: flex;
     align-items: baseline;
 }
-.Experience{
+.subheading{
     width: fit-content;
     margin: 0 auto;
     font-weight: bold;
@@ -108,18 +108,18 @@ body{
     border-top: 0;
     padding-bottom: 30px;
 }
-.centr{
+.price-info{
     color: #FFFFFF;
     margin-top: -50px;
     
 }
-.cena{
+.price-divider{
     border-left: 1px solid;
     padding-left: 14px;
     margin-left:11px;
     margin-right:16px ;
 }
-.buttoN{
+.cta-button{
     padding: 0;
     width: 260px;
     margin: 0 auto;
@@ -131,7 +131,7 @@ body{
     height: 60px;
     Border-radius:5px;
 }
-.scroll_button{
+.scroll-button{
     background: none;
     border: none;
     width: fit-content;
@@ -139,7 +139,7 @@ body{
     padding-left: 555px;
     font-weight: bold;
 }
-.scroll{
+.scroll-label{
     color: #FFFFFF;
     width: fit-content;
     margin: 0 auto;
@@ -147,20 +147,20 @@ body{
     font-weight: bold;
 }
 
-.what_is_sos{
+.about-section{
     position: relative;
     width: 1440px;
     height: 960px;
-    background-image: url(assets/fon_\ 2.svg);
+    background-image: url(assets/fon2.svg);
 }
 
-.imag{
+.about-image{
     padding-right: 0;
     margin-right: 0;
     padding-top: 213px;
 
 }
-.s_b_r_g{
+.section-heading{
     color: #FFFFFF;
     font-weight: 400;
     font-size: 80px;
@@ -173,10 +173,10 @@ body{
     border-bottom: 3px solid white;
     padding-right: 270px;
 }
-.what_is_sos{
+.about-section{
     padding-top: 0px;
 }
-.w_i_s{
+.section-subheading{
     font-family: "Bebas Neue", sans-serif;
     color: #FFFFFF;
 
@@ -184,13 +184,13 @@ body{
     margin-bottom: 0;
     padding-bottom: 9px;
 }
-.what_is_sos_2{
+.about-content{
     display: flex;
     justify-content: space-between;
     align-items:center;
     padding-top: 256px;
 }
-.parg{
+.about-text{
     width: 364px;
     color: #FFFFFF;
     font-size: 18px ;
@@ -200,7 +200,7 @@ body{
     letter-spacing: 0px;
     font-family: "Open Sans", sans-serif;
 }
-.LANDING {
+.game-section {
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
@@ -213,7 +213,7 @@ body{
   padding: 0; 
 }
 
-.LANDING .div {
+.game-section .div {
   background-color: #ffffff;
   overflow: hidden;
   width: 1440px;
@@ -221,7 +221,7 @@ body{
   position: relative;
 }
 
-.LANDING .requirements-2 {
+.game-section .system-req-section {
   position: absolute;
   width: 1442px;
   height: 960px;
@@ -229,15 +229,14 @@ body{
   left: 0;
 }
 
-.LANDING .overlap-8 {
+.game-section .system-req-container {
   position: relative;
   width: 1440px;
   height: 960px;
-  background-image: url(assets/Group\ 2.svg);
-
+  background-image: url(assets/KART2.svg);
 }
 
-.LANDING .requirements-3 {
+.game-section .system-req-content {
   position: absolute;
   width: 593px;
   height: 401px;
@@ -245,15 +244,14 @@ body{
   left: 120px;
 }
 
-.LANDING .overlap-group-4 {
+.game-section .system-req-card {
   position: relative;
   width: 574px;
   height: 402px;
-  background-image: url(assets/disquette.svg);
-
+  background-image: url(assets/table.svg);
 }
 
-.LANDING .nvidia {
+.game-section .gpu-spec {
   position: absolute;
   width: 514px;
   top: 300px;
@@ -266,7 +264,7 @@ body{
   line-height: 22px;
 }
 
-.LANDING .graphics {
+.game-section .gpu-label {
   position: absolute;
   width: 262px;
   top: 277px;
@@ -280,7 +278,7 @@ body{
   white-space: nowrap;
 }
 
-.LANDING .element-gb-available {
+.game-section .storage-spec {
   position: absolute;
   width: 192px;
   top: 176px;
@@ -293,7 +291,7 @@ body{
   line-height: 22px;
 }
 
-.LANDING .storage {
+.game-section .storage-label {
   position: absolute;
   width: 262px;
   top: 141px;
@@ -307,7 +305,7 @@ body{
   white-space: nowrap;
 }
 
-.LANDING .element-gb {
+.game-section .ram-spec {
   position: absolute;
   width: 119px;
   top: 176px;
@@ -321,7 +319,7 @@ body{
   line-height: 22px;
 }
 
-.LANDING .memory {
+.game-section .ram-label {
   position: absolute;
   width: 262px;
   top: 141px;
@@ -335,7 +333,7 @@ body{
   white-space: nowrap;
 }
 
-.LANDING .intel-core {
+.game-section .cpu-spec {
   position: absolute;
   width: 258px;
   top: 49px;
@@ -348,7 +346,7 @@ body{
   line-height: 22px;
 }
 
-.LANDING .processor {
+.game-section .cpu-label {
   position: absolute;
   width: 262px;
   top: 15px;
@@ -362,7 +360,7 @@ body{
   white-space: nowrap;
 }
 
-.LANDING .windows {
+.game-section .os-spec {
   position: absolute;
   width: 258px;
   top: 50px;
@@ -375,7 +373,7 @@ body{
   line-height: 22px;
 }
 
-.LANDING .os {
+.game-section .os-label {
   position: absolute;
   width: 262px;
   top: 15px;
@@ -389,7 +387,7 @@ body{
   white-space: nowrap;
 }
 
-.LANDING .h-4 {
+.game-section .section-main-title {
   width: 633px;
   top: 181px;
   left: 330px;
@@ -403,7 +401,7 @@ body{
   line-height: normal;
 }
 
-.LANDING .h-5 {
+.game-section .section-subtitle {
   width: 353px;
   top: 120px;
   left: 475px;
@@ -417,17 +415,14 @@ body{
   white-space: nowrap;
 }
 
-
-
-
-.LANDING .overlap-10 {
+.game-section .features-container {
   position: relative;
   width: 1440px;
   height: 960px;
-  background-image: url(assets/Group.svg);
+  background-image: url(assets/KART1.svg);
 }
 
-.LANDING .feature {
+.game-section .feature-item-1 {
   width: 348px;
   top: 662px;
   left: 842px;
@@ -441,7 +436,7 @@ body{
   white-space: nowrap;
 }
 
-.LANDING .ellipse-3 {
+.game-section .feature-bullet-1 {
   position: absolute;
   width: 11px;
   height: 11px;
@@ -453,7 +448,7 @@ body{
   transform: rotate(90deg);
 }
 
-.LANDING .overlap-11 {
+.game-section .features-content {
   position: absolute;
   width: 414px;
   height: 187px;
@@ -461,7 +456,7 @@ body{
   left: 795px;
 }
 
-.LANDING .feature-2 {
+.game-section .feature-item-2 {
   width: 366px;
   top: 149px;
   left: 47px;
@@ -475,7 +470,7 @@ body{
   white-space: nowrap;
 }
 
-.LANDING .overlap-group-5 {
+.game-section .features-highlight {
   position: absolute;
   width: 363px;
   height: 171px;
@@ -483,7 +478,7 @@ body{
   left: 0;
 }
 
-.LANDING .ellipse-4 {
+.game-section .feature-bullet-2 {
   position: absolute;
   width: 15px;
   height: 15px;
@@ -491,7 +486,7 @@ body{
   left: 0;
 }
 
-.LANDING .progress-bar {
+.game-section .feature-connector {
   position: absolute;
   width: 2px;
   height: 141px;
@@ -499,7 +494,7 @@ body{
   left: 7px;
 }
 
-.LANDING .feature-3 {
+.game-section .feature-item-3 {
   width: 348px;
   top: 0;
   left: 16px;
@@ -514,7 +509,7 @@ body{
   white-space: nowrap;
 }
 
-.LANDING .ellipse-5 {
+.game-section .feature-bullet-3 {
   position: absolute;
   width: 15px;
   height: 15px;
@@ -522,7 +517,7 @@ body{
   left: 0;
 }
 
-.LANDING .text-of-feature {
+.game-section .feature-description {
   position: absolute;
   width: 363px;
   top: 43px;
@@ -536,7 +531,7 @@ body{
   line-height: 22px;
 }
 
-.LANDING .h-6 {
+.game-section .features-main-title {
   width: 412px;
   top: 294px;
   left: 797px;
@@ -550,7 +545,7 @@ body{
   line-height: normal;
 }
 
-.LANDING .h-7 {
+.game-section .features-subtitle {
   width: 262px;
   top: 258px;
   left: 801px;
@@ -917,7 +912,7 @@ body, p, h1, h2, h3, h4, h5 {
 
 body {
     min-height: 100vh;
-    line-height: 1.5;
+    line-height: 1.0;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
